@@ -1,0 +1,68 @@
+body {
+	background: black;
+}
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+p {
+	color: blue;
+}
+.postcard {
+	width: 400px;
+	height: 300px;
+	background: white;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 70%;
+	margin: 0;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0;
+}
+.body-left,
+.body-right {
+	padding: 2px;
+	font-family: "Delius";
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+input {
+	border: none;
+	border-bottom: 2px solid grey;
+	font-family: "Delius";
+}
+button {
+	background-color: grey;
+	padding: 3px;
+}
+.center-button {
+	margin-top: 20px;
+}
+.postcard-footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	text-align: center;
+}
+.delius-regular {
+	font-family: "Delius", cursive;
+	font-weight: 400;
+	font-style: normal;
+}
+h1 {
+	font-family: "Delius";
+}
